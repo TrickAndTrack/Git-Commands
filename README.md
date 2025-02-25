@@ -136,4 +136,52 @@ This guide provides a summary of common Git commands organized by their usage, a
 
 ---
 
+Git command
+
+git login by command
+* git config --global user.name "TrickAndTarck" 
+* git config --global user.email "xyz@gmail.com"
+for the conform 
+*git config --global user.name
+or
+whoami
+
+print working directory
+*pwd
+
+showing the working of keywords
+*git help
+
+branch switching
+*git switch <branch name> 
+
+
+1) if we want to push code on new  repo->
+
+a) git init  (create empty git repository)
+b) git status (for checking files)
+c) git add .
+d) git commit -m "project commit"
+e) git status
+d) git remote add origin https://github.com/TrickAndTrack/a.git
+f) git push -u origin <master/main/branchname>
+
+2) if we want to take a pull in new pc/new folder->
+
+a) git init
+b) git status (Cross Check which files are in modifed  )
+c) git add .
+d) git commit -m "project commit"
+e) git remote add origin <git repo url>
+f) git remote -v
+g) git push -u origin <master/main/branchname>
+
+
+3) how to pull requests genrate
+a) git switch <branch name> 
+b) git add .
+c) git commit -m "<Git message>"
+d) git push
+
+
 This guide provides a quick reference for common Git commands, their purposes, and usage examples. Keep this on hand as you work with Git to manage your projects!
